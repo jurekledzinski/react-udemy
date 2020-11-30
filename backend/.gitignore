@@ -1,0 +1,62 @@
+### Node ###
+# Logs
+logs
+*.log
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# nyc test coverage
+.nyc_output
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Optional npm cache directory
+.npm
+npm-debug.log* 
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional eslint cache
+.eslintcache
+
+# Build directories
+public
+dist
+
+# Mac File System File...utterly useless to anyone but me.file created by operator system, that stores information about icons’ layout, order etc.
+.DS_Store
+
+# AWS stuff for publishing static files
+.aws-credentials.json
+.awspublish*
+
+# dotenv environment variables file
+.env
+.env.test
+.env*.local
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+#preprocessor can create sass-cache
+.sass-cache
+
